@@ -170,7 +170,7 @@ scheme host and port.""")
                                       help="Do not enable WebTransport tests on experimental channels")
     test_selection_group.add_argument("--enable-dns",
                                       action="store_true",
-                                      default=None,
+                                      default=False,
                                       help="Enable the DNS server for resolving test domains")
     test_selection_group.add_argument("--no-enable-dns", action="store_false", dest="enable_dns",
                                       help="Do not enable DNS server")
